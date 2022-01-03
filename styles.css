@@ -8,9 +8,24 @@ body {
   background-color: hsl(217, 54%, 11%);
   color: hsl(0, 0%, 100%);
   font-family: 'Outfit', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+main {  
+  margin: 10rem 0;
+  background-color: hsl(216, 50%, 16%);
+}
 
+h1 {
+  align-items: center;
+}
+
+span {
+  color: hsl(178, 100%, 50%);
+}
 
 .attribution {
   font-size: 11px; text-align: center;
