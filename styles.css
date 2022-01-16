@@ -7,7 +7,7 @@
 body {
   background-color: hsl(217, 54%, 11%);
   color: hsl(0, 0%, 100%);
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,7 +15,7 @@ body {
   height: 100vh;
 }
 
-main {  
+main {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -31,7 +31,7 @@ main {
 } */
 
 .cube {
-  background-image: url("../images/image-equilibrium.jpg");
+  background-image: url("./images/image-equilibrium.jpg");
   background-size: cover;
   background-position: center;
   display: block;
@@ -43,7 +43,8 @@ main {
 .cube:hover {
   cursor: pointer;
   /* background-color: hsl(178, 100%, 50%); */
-  background: url("../images/image-equilibrium.jpg") no-repeat center/cover, url("../images/icon-view.svg") no-repeat center hsl(178, 100%, 50%);
+  background: url("./images/image-equilibrium.jpg") no-repeat center/cover,
+    url("./images/icon-view.svg") no-repeat center hsl(178, 100%, 50%);
   background-blend-mode: overlay;
   /* opacity: 1; */
 }
@@ -91,7 +92,7 @@ h1:hover {
 
 .days-left {
   margin-left: 0.5rem;
-  color:hsl(215, 51%, 70%);
+  color: hsl(215, 51%, 70%);
 }
 
 .credits {
@@ -122,11 +123,12 @@ h1:hover {
 
 .jules:hover {
   cursor: pointer;
-  color: hsl(178, 100%, 50%)
+  color: hsl(178, 100%, 50%);
 }
 
 .attribution {
-  font-size: 11px; text-align: center;
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
@@ -160,6 +162,6 @@ h1:hover {
 /* Mobile version */
 @media only screen and (max-width: 500px) {
   main {
-    max-width: 90%
+    max-width: 90%;
   }
-} 
+}
