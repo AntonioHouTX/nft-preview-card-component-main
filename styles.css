@@ -24,22 +24,39 @@ main {
   padding: 1.5rem;
 }
 
-figure {
+/* figure {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .cube {
+  background-image: url("../images/image-equilibrium.jpg");
+  background-size: cover;
+  background-position: center;
   display: block;
+  height: 19rem;
   width: 100%;
   border-radius: 10px;
+}
+
+.cube:hover {
+  cursor: pointer;
+  /* background-color: hsl(178, 100%, 50%); */
+  background: url("../images/image-equilibrium.jpg") no-repeat center/cover, url("../images/icon-view.svg") no-repeat center hsl(178, 100%, 50%);
+  background-blend-mode: overlay;
+  /* opacity: 1; */
 }
 
 h1 {
   /* margin-left: 2rem; */
   font-size: 1.25rem;
   margin: 1.5rem 0;
+}
+
+h1:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
 }
 
 .description {
@@ -92,14 +109,21 @@ h1 {
 
 .credits p {
   margin-left: 1rem;
-  /* border: 1px solid white; */
+  color: hsl(215, 51%, 70%);
 }
 
 .creation {
   color: hsl(215, 51%, 70%);
 }
 
+.jules {
+  color: white;
+}
 
+.jules:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%)
+}
 
 .attribution {
   font-size: 11px; text-align: center;
@@ -109,7 +133,8 @@ h1 {
   color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (max-width: 1366px) {
+/* Smaller screen version */
+@media only screen and (max-width: 1368px) {
   main {
     max-width: 25%;
   }
@@ -123,3 +148,18 @@ h1 {
     margin-bottom: 1rem;
   }
 }
+
+/* Tablet version */
+@media only screen and (max-width: 850px) {
+  main {
+    max-width: 50%;
+    max-height: 100%;
+  }
+}
+
+/* Mobile version */
+@media only screen and (max-width: 500px) {
+  main {
+    max-width: 90%
+  }
+} 
