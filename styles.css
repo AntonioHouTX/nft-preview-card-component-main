@@ -26,14 +26,11 @@ figure {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid white;
 }
 
 .cube {
-  object-fit: scale-down;
   max-width: 70%;
   border-radius: 10px;
-  border: 1px solid white;
 }
 
 h1 {
