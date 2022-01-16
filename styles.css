@@ -20,6 +20,8 @@ main {
   flex-direction: column;
   border-radius: 10px;
   background-color: hsl(216, 50%, 16%);
+  max-width: 20%;
+  padding: 1.5rem;
 }
 
 figure {
@@ -29,38 +31,73 @@ figure {
 }
 
 .cube {
-  max-width: 70%;
+  display: block;
+  width: 100%;
   border-radius: 10px;
 }
 
 h1 {
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
   font-size: 1.25rem;
-  margin-bottom: 1.5rem;
+  margin: 1.5rem 0;
 }
 
-p {
-  margin-left: 2rem;
+.description {
+  /* margin-left: 2rem; */
   font-size: 1.15rem;
   font-weight: 100;
   color: hsl(215, 51%, 70%);
-  width: 70%;
+  width: 80%;
   margin-bottom: 1.5rem;
   line-height: 1.5rem;
 }
 
+.price-daysleft {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.ethereum {
+  /* display: flex; */
+}
+
 .eth {
+  margin-left: 0.5rem;
   color: hsl(178, 100%, 50%);
 }
 
+.test {
+  /* display: flex; */
+}
+
 .days-left {
+  margin-left: 0.5rem;
   color:hsl(215, 51%, 70%);
 }
 
 hr {
   border: 1px solid hsl(215, 51%, 70%);
-  margin-left: 2rem;
-  margin-right: 2rem;
+  /* margin-left: 2rem;
+  margin-right: 2rem; */
+}
+
+.credits {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.credits img {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 2rem;
+}
+
+.credits p {
+  margin-left: 1rem;
+  /* border: 1px solid white; */
 }
 
 .jules {
