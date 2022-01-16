@@ -20,7 +20,7 @@ main {
   flex-direction: column;
   border-radius: 10px;
   background-color: hsl(216, 50%, 16%);
-  max-width: 20%;
+  max-width: 16%;
   padding: 1.5rem;
 }
 
@@ -47,7 +47,7 @@ h1 {
   font-size: 1.15rem;
   font-weight: 100;
   color: hsl(215, 51%, 70%);
-  width: 80%;
+  width: 95%;
   margin-bottom: 1.5rem;
   line-height: 1.5rem;
 }
@@ -56,7 +56,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 .ethereum {
@@ -77,16 +77,11 @@ h1 {
   color:hsl(215, 51%, 70%);
 }
 
-hr {
-  border: 1px solid hsl(215, 51%, 70%);
-  /* margin-left: 2rem;
-  margin-right: 2rem; */
-}
-
 .credits {
-  margin-top: 1rem;
+  padding-top: 1rem;
   display: flex;
   align-items: center;
+  border-top: 1px solid hsl(215, 51%, 70%);
 }
 
 .credits img {
@@ -100,8 +95,8 @@ hr {
   /* border: 1px solid white; */
 }
 
-.jules {
-  color: white;
+.creation {
+  color: hsl(215, 51%, 70%);
 }
 
 
