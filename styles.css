@@ -44,7 +44,7 @@ main {
   cursor: pointer;
   /* background-color: hsl(178, 100%, 50%); */
   background: url("./images/image-equilibrium.jpg") no-repeat center/cover,
-    url("./images/icon-view.svg") no-repeat center hsl(178, 100%, 50%);
+    url("/images/icon-view.svg") no-repeat center hsl(178, 100%, 50%);
   background-blend-mode: overlay;
   /* opacity: 1; */
 }
