@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor | Responsive Web Page using Flexbox](https://www.frontendmentor.io/solutions/responsive-web-page-using-flexbox-OfqtAG6AE)
 - Live Site URL: [Frontend Mentor | NFT preview card component](https://antoniohoutx.github.io/nft-preview-card-component-main/)
 
 ## My process
